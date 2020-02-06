@@ -1,0 +1,99 @@
+#ALGORITMA DAN STRUKTUR DATA 1#
+
+Algoritma :
+	:kemampuan seorang manusia untuk berfikir dengan akal tentang suatu permasalahan menghasilkan sebuah kebenaran,
+	dibuktikan dan dapat diterima akal
+	:urutan penyelesaian masalah yang disusun secara sistematis
+	menggunakan bahasa yang logis untuk memecahkan suatu permasalahan
+
+Logika seringkali dihubungkan dengan kecerdasan
+	Logika :
+	ilmu yang memberikan prinsip-prinsip yang harus diikuti agar dapat berfikir valid menurut aturan yang berlaku
+
+#Urut - urutan atau sequence : rangkaian tindakan yang dilakukan secara berurut
+
+==> Penukaran gelas A (teh) dengan gelas B (kopi)
+	#diperlukan gelas tambahan (gelas C) sebagai tempat penyimpanan sementara
+
+	Algoritmanya :
+	1. Siapkan gelas cadangan C
+	2. Tuangkan air teh dari gelas A ke dalam
+	gelas C (gelas A menjadi kosong).
+	3. Tuangkan air kopi dari gelas B ke dalam
+	gelas A (gelas B menjadi kosong).
+	4. Tuangkan air teh dari gelas C ke dalam
+	gelas B.
+
+	"Saat menggunakan logika, sebaiknya jangan berfikir terlalu rumit tentang sebuah masalah, 
+	karena belum tentu masalah itu serumit yang kita pikir. Pikirkan hal yang paling sederhana untuk menyelesaikan masalah itu, 
+	sehingga tidak terjebak dalam pikiran rumit yang dibuat sendiri. 
+	Meski demikian jangan meremehkan masalah sekecil apapun,
+	tapi berfikir sederhana untuk menghasilkan solusi yang efektif"
+
+Pertimbangan dalam pemilihan algoritma
+	1. Algoritma akan memberikan keluaran yang sesuai seperti yang diharapkan 
+	dari sejumlah masukan yang diberikan
+	2. Seberapa baik hasil yang dicapai
+	3. Efisiensi
+		-waktu dan memori
+	4. Cepat
+
+Tujuan : 
+	agar dapat membiasakan diri melakukan suatu perencanaan apabila menyelesaikan 
+	suatu masalah
+
+Sifat algoritma adalah:
+	1. Tidak menggunakan simbol atau sintaks dari suatu bahasa pemrograman tertentu
+	2. Tidak tergantung pada suatu bahasa pemrograman tertentu
+	3. Notasi-notasinya dapat digunakan untuk seluruh bahasa manapun
+	4. Algoritma dapat digunakan untuk merepresentasikan suatu urutan kejadian secara logis
+	dan dapat diterapkan di semua kejadian sehari-hari
+
+Struktur dasar algoritma = langkah-langkah
+Suatu algoritma terdiri dari 3 struktur dasar :
+	1. Runtunan ( sequence )
+	Urutan yang berbeda menghasilkan jumlah yang berbeda
+	(4+3)*7=49
+	4+(3*7) =25
+
+	Algoritma penukaran dua bilangan bulat,yaitu:
+		1. Deklarasikan A, B, dan C sebagai bilangan bulat
+		2. Masukkan nilai A dan B
+		3. Masukkan nilai A ke dalam C
+		4. Masukkan nilai B ke dalam A
+		5. Masukkan nilai C ke dalam B
+
+	2. Pemilihan ( selection )
+	#instruksi yang dikerjakan dengan kondisi tertentu
+
+	Penentuan bilangan genap atau ganjil
+		1. Masukkan bilangan sebagai sebuah bilangan bulat
+		2. Bagi bilangan dengan angka 2, simpan nilai sisa pembagian dalam variabel sisa
+		3. Jika nilai sisa sama dengan 0 maka kerjakan langkah 4:
+		4. Tampilkan ”GENAP” ke layar
+		5. Jika nilai sisa tidak sama dengan 0 maka kerjakan langkah 6
+		6. Tampilkan ”GANJIL” ke layar
+		7. Selesai.
+
+	3. Pengulangan ( Repetition )
+	Menampilkan huruf tertentu sebanyak n kali ke layar
+		1. Deklarasikan variabel huruf untuk menyimpan karakter yang akan ditampilkan.
+		2. Deklarasikan variabel n untuk menyimpan banyaknya perulangan
+		3. Deklarasikan variabel counter yang digunakan sebagai counter perulangan yang
+		sudah dilakukan.
+		4. Masukkan sebuah karakter dan simpan dalam variabel huruf
+		5. Masukkan banyaknya perulangan yang diinginkan dan simpan dalam variabel n
+		6. Set nilai counter dengan 0
+		7. Tampilkan huruf ke layar
+		8. Lakukan penambahan counter dengan 1
+		9. Jika nilai counter<n, kerjakan langkah 6
+		10. Jika nilai counter = n selesai
+
+Vocabulary : himpunan yang anggotanya adalah semua string yang dapat dibentuk dari suatu himpunan alphabet
+	contoh : 
+	A= {A,B,1} 
+	==> string yang bisa di bentuk "AB1", "ABB", "ABA1",.....
+
+Array : suatu set dari alokasi data, dengan jenis data yang sama
+	untuk tiap alokasi tersebut.
+	setialp alokasi data = elemen
