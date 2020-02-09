@@ -1,3 +1,3 @@
 # Ringkasan Materi Belajar
-  Ringakasan adalah sekumpulan materi yang akan dipelajari atau sudah dipelajari sebelumnya.
+  Ringkasan adalah sekumpulan materi yang akan dipelajari atau sudah dipelajari sebelumnya.
   
