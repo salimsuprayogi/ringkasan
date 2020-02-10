@@ -1,0 +1,118 @@
+#Mekanisme pelaksanaan algoritma oleh pemroses notasi penulisan algoritma
+
+Komputer sebagai mesin pemroses, terdiri 4 komponen :
+	1. unit input
+	2. unit output
+	3. unit pemroses central ( CPU / prosesor)
+	4. memori 
+
+Berdasar tingkat kerumitan sebuah bahasa pemrograman, lebih dekat ke mesin atau bahasa manusia
+ada 2 maca :
+	-bahasa tingkat rendah, lebih mendekati ke bahasa mesin
+	-bahasa tingkat tinggi, lebih mendekati ke bahasa manusia
+
+Dalam menulis algoritma, mudah dibaca dan menggunakan bahasa yang mudah di pahami
+Cara untuk menuliskan algoritma :
+	1. kalimat deskripti
+	di susun berdasarkan dari :
+		1. bagian judul ( header )
+			Algoritma Luas_Lingkaran
+			{Menghitung luas lingkaran untuk ukuran jari-jari tertentu.
+			Algoritma menerima masukan jari-jari lingkaran, menghitung
+			luasnya, lalu cetak luasnya ke piranti keluaran}
+
+			Deklarasi :
+			jari_jari = real {tipe data bilangan pecahan}
+			luas = real {tipe data bilangan pecahan}
+			PHI = 3.14
+
+			Deskripsi:
+			1. Baca jari_jari
+			2. Hitung luas = PHI*jari_jari * jari_jari
+			3. Tampilkan luas ke layar
+			4. Selesai
+		2. bagian deklarasi ( kamus )
+		3. bagian deskripsi
+
+	2. Pseudocode
+	cara penulisan algoritma yang menyerupai bahasa pemrograman tingkat tinggi
+		Pseudocede :
+		Input panjang
+		Read panjang
+		Baca panjang
+		luas <-- panjang * lebar
+		Output luas
+		Print luas
+		Write luas
+		If kondisiSelesai == tru then print luas
+		nilai B <-- B + 5
+		If A < 5 then B <-- B/3
+		If A > B then print A else print B
+
+	Algoritma Konversi Nilai Angka ke Huruf
+	{Dibaca tiga buah bilangan dari piranti masukan. Carilah dan tampilkan
+	bilangan bulat maksimum diantara ketiga bilangan tersebut}
+	Deklarasi:
+	nama dan nim = String
+	nilai = integer
+	Deskripsi:
+	1. Read (nama)
+	2. Read (nim)
+	3. Read (nilai)
+	4. If (nilai < 45) then
+	5. Grade = E
+	6. Else if (nilai >= 45) and (nilai < 60) then
+	7. Grade = D
+	8. Else if (nilai >= 60) and (nilai < 70) then
+	9. Grade = C
+	10. Else if (nilai >= 70) and (nilai < 80) then
+	11. Grade = B
+	12. Else
+	13. Grade = A
+	14. Write (nama)
+	15. Write (NIM)
+	16. Write (nilai)
+	17. Selesai
+
+	3. Flowchart
+	cara penulisan algoritma dengan menggunakan notasi grafis
+	macam-macam flowchart :
+		Flowchart Sistem (System Flowchart), 
+		Flowchart Paperwork / Flowchart Dokumen (Document Flowchart), 
+		Flowchart Skematik (Schematic Flowchart), Flowchart Program (Program Flowchart), 
+		Flowchart Proses (Process Flowchart).
+	untuk keperluan pembuatan program digunakan flowchar program
+
+	flowchat program : menggambarkan urutan instruksi yang digambarkan 
+		dengan simbol tertentu untuk memecahkan masalah dalam suatu program
+	Programmer :
+		untuk menggambarkan urutan instruksi dari program komputer
+	Analis Sistem :
+		untuk menggambarkan urutan tugas-tugas pekerjaan dalam suatu prosedur atau operasi
+	Anjuran pembuatan flowchart :
+		1. Flowchart digambarkan di suatu halaman dimulai dari sisi atas ke bawah dan dari sisi kiri
+			ke kanan.
+		2. Aktivitas yang digambarkan harus didefinisikan dengan menggunakan bahasa dan
+			simbol yangtepat dan definisi ini harus dapat dimengerti oleh pembacanya.
+		3. Kapan aktivitas dimulai dan berakhir harus ditentukan secara jelas. Hanya terdapat satu
+			titik awal dan satu titik akhir.
+		4. Setiap langkah dari aktivitas harus diuraikan dengan menggunakan deskripsi kata kerja,
+			misalkan MENGHITUNG NILAI RATA-TARA.
+		5. Setiap langkah dari aktivitas harus berada pada urutan yang benar.
+		6. Lingkup dan range dari aktifitas yang sedang digambarkan harus ditelusuri dengan hatihati.
+			Percabangan-percabangan yang memotong aktivitas yang sedang digambarkan tidak
+			perlu digambarkan pada flowchart yang sama. Simbol konektor harus digunakan dan
+			percabangannya diletakan pada halaman yang terpisah atau hilangkan seluruhnya bila
+			percabangannya tidak berkaitan dengan sistem.
+		7. Gunakan simbol-simbol flowchart yang standar.
+
+	Simbol-simbol flowchart yang biasanya dipakai adalah simbol-simbol flowchart 
+		standar yang dikeluarkan oleh ANSI dan ISO
+
+1 1 2
+1 2 3
+2 3 5
+3 5 8
+5 8 13
+8 13 21
+
