@@ -1,0 +1,116 @@
+# Studi Kasus
+
+MENGHITUNG LUAS DAN KELILING LINGKARAN
+
+1. Permasalahan
+	Buat flowschart untuk menghitung luas dan keliling lingkaran
+	Panjang jari-jari dimasukan oleh pengguna
+	Luas dan keliling di tampilkan ke layar
+	
+	Data yang di dapat :
+		#Masukan pnajng jari-jari : 7
+		#Luas Lingkaran : 153.94
+		#Keliling Lingkaran : 43.95
+
+2. Cara Penyelesaian Masalah
+	Dibutuhkan data berupa : radius lingkaran dan nilai konstan ( π )
+	Matematis : Rumus
+	Luas Lingkaran =  π * radius * radius
+	Keliling Lingkaran = 2 * π * radius
+	Nilai π = sebuah konstanta dalam matematikan ( perbandingan keliling lingkaran dg diameter )
+	Nilai π = 3.14159265358979323846 // 3.14
+
+3. Struktur data yang dibutuhkan
+	PI sebagai konstanta = tipe data pecahan, bernilai 3.14
+	radius sebgai variabel = tipe data pecahan, menampung panjang radius lingkaran 
+	luas sebagai variabel = penampung hasil perhitungan luas lingkaran
+	
+4. Deklarasi dan Inisialisasi
+	PI didefinisikan sebagai konstanta dan diinisialisasi sebagai sebuah angka dengan 2 angka di belakang koma.
+	Variabel radius, luas, dan keliling dideklarasikan bertipe pecahan.
+	Bilangan yang di masukan pengguna nilainya fleksibel jadi radius di deklarasikan sebagai variabel.
+	Variabel luas dan keliling dideklarasikan sebagai variabel karena nilai yang tersimpan didalamnya adalah
+	hasil kalkulasi rumus luas dan keliling lingkaran yang nilainya dapat berubah tergantung dengan pengguna.
+	
+	#deklarasi dan inisialisasi konstanta dan variabel pada flowchart
+	____________________________________
+	|PI = 3.14, keliling, luas. radius |
+	|__________________________________|
+
+5. Input
+	Masukan yang diperlukan dalam permasalahan ini adalah bilangan yang
+	melambangkan panjang radius lingkaran dan disimpan dalam variabel radius.
+
+	#Input pada flowchart
+	  ____________________
+	 /  input radius     /		
+	/___________________/
+	
+6. Output
+	Keluaran permasalahan ini adalah 2 buah nilai yaitu luas dan keliling lingkaran
+	
+	#Output pada flowchart
+	  __________________________
+	 / print luas dan keliling /		
+	/_________________________/
+
+7. Proses Penyelesaian
+	Terdapat dua buah kegiatan yang terjadi dalam proses dan dilakukan secara berurutan
+	(sequences), yaitu perhitungan luas dan keliling lingkaran sesuai rumus yang telah
+	dideklarasikan sebelumnya.
+	
+	#proses penyelesaian pada flowchart
+
+	=> digabung
+	____________________________________
+	|luas = PI * radius * radius       |
+	|keliling = 2 * PI * radius        |
+	|__________________________________|
+	
+	=> dipisah
+	____________________________________
+	|luas = PI * radius * radius       |
+	|__________________________________|
+			||
+		        ||
+			\/
+	____________________________________
+	|keliling = 2 * PI * radius        |
+	|__________________________________|
+
+8. Flowchart keseluruhan 
+
+		      (START)
+		____________________________________
+		|PI = 3.14, keliling, luas. radius |
+		|__________________________________|
+			||
+		        ||
+			\/
+	       	  ____________________
+		 /  input radius     /		
+		/___________________/
+			||
+		        ||
+			\/
+		  __________________________
+		 / print luas dan keliling /		
+		/_________________________/
+			||
+		        ||
+			\/
+		____________________________________
+		|luas = PI * radius * radius       |
+		|keliling = 2 * PI * radius        |
+		|__________________________________|
+			||
+		        ||
+			\/
+		  __________________________
+		 / print luas dan keliling /		
+		/_________________________/
+			||
+		        ||
+			\/
+		       (END)
+	

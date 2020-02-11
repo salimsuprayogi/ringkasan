@@ -1,0 +1,90 @@
+#STRUKTUR DATA ALGORITMA
+
+Struktur data adalah cara penyimpanan, penyusunan dan pengaturan di dalam media penyimpanan data
+	di dalam media penyimpanan komputer, sehingga data tersebut dapat digunakan secara efisien
+
+Pemakaian struktur data yang tepat didalam proses pemrograman akan
+	menghasilkan algoritma yang lebih jelas dan tepat,
+	sehingga menjadikan program secara keseluruhan lebih efisien dan sederhana
+
+Data adalah representasi dari fakta dunia nyata
+
+Konstanta menyatakan nilai yang tetap,
+	sedangkan variabel menyatakan nilai yang dapat diubah-ubah selama eksekusi berlangsung.
+
+Setiap data memiliki tipe data
+	tipe data adalah pengelompokan data berdasarkan isi dan sifatnya.
+	bidang informatika 
+		tipe data : jenis data yang dapat diolah oleh komputer untuk memenuhi kebutuhan 
+		dalam pemrograman komputer
+
+Setiap variabel atau konstanta yang ada dalam kode program,
+	sebaiknya kita tentukan dengan pasti tipe datanya.
+	Ketepatan pemilihan tipe data pada variabel atau konstanta
+	akan sangat menentukan pemakaian sumberdaya komputer (terutama memori komputer). 
+	Salah satu tugas penting seorang programmer adalah memilih tipe data yang 
+	sesuai untukmenghasilkan program yang efisien dan berkinerja tinggi.
+
+Tipe Data
+	1. Tipe data dasar
+		1. integer
+		2. float / real
+		3. char / karakter
+		4. boolean / logika
+	2. Tipe data bentukan
+		tipe data yang dibentuk dari tipe
+		data dasar
+		Seperti : array, string, record, union, struct
+	3. tipe data abstrak
+		model matematika dari obyek data yang menyempurnakan tipe data
+		dengan cara mengaitkannya dengan fungsi-fungsi yang beroperasi
+		pada data yang bersangkutan
+
+		Struktur data hanya memperlihatkan bagaimana data-data di organisir, 
+		sedangkan tipe data abstrak mengemas struktur data tertentu sekaligus
+		dengan operasi-operasi yang dapat dilakukan pada struktur data tersebut
+
+Stack // tumpukan
+	Sekumpulan data yang strukturnya menyerupai tumpukan
+	Stack harus diberi nama sebagai identifikasi
+	Konsep penyimpanan menganut sistem LIFO / (Last In First Out)
+		"Yang terakhir masuk sebagai yang pertama keluar"
+	Cara mengakses stack
+		dengan melakukan operasi dasar pada stack 
+			-operasi push //proses pemasukan data baru ke stack
+			-operasi pop //proses mengeluarkan /mengambil data dari stack(data posisi teratas)
+			operasi push dan pop tidak memerlukan informasi posisi data
+Queue // antrian
+	suatu kumpulan data dengan operasi pemasukan atau penyimpanan data hanya 
+	diperbolehkan pada salah satu sisi, yang disebut sisi belakang (rear)
+	dan operasi pengambilan atau penghapusan hanya diperbolehkan pada sisi lainnya yang disebut sisi depan (front)
+	Konsep ini dikenal dengan istilah FIFO / (First In First Out)
+	
+	Ilustrasi seperti antrain dalam bank untuk di layanani
+	Enqueue = saat menempatkan data pada ujung (rear)
+	Dequeue = saat memindahkan elemen dari kepala (front) sebuah queue
+	operasi enqueue dan dequeue tidak memerlukan informasi posisi data
+
+Tree
+	merupakan salah satu bentuk struktur data tidak linear yang menggambarkan
+	hubungan yang bersifat hirarki (hubungan one to many) antara elemen-elemen
+	
+	bentuk tree menyerupai pohon, yang terdiri dari serangkaian node // simpul yang saling berhubungan
+	node node tersebut dihubungakn oleh sebuah vektor
+
+	dalam artian tree adalah kumpulan simpul atau node dengan elemen khusus yang 
+	disebut root atau akar
+	
+	Node yang berada di pangkal tree = node root ( akar )
+	Node yang berada di ujung tree = node leaf ( daun )
+
+Graph
+	graph adalah struktur yang menggambarkan relasi antar obyek dari sebuah koleksi obyek
+	Jika struktur linear; misalnya array; memungkinkan pendefinisian keterhubungan sekuensial 
+	antara entitas data, struktur data tree memungkinkan pendefinisian keterhubungan hirarkis,
+	maka struktur graph memungkinkan pendefinisian keterhubungan tak terbatas 
+	antara entitas data.
+	
+	secara grafis sebagai kumpulan lingkaran yang melambangkan node yang 
+	dihubungkan oleh garis yang melambangkan edge
+
